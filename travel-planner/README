@@ -1,0 +1,40 @@
+# 🌍 AI Travel Planner
+
+An AI-powered travel assistant that helps users plan trips using real-time data like weather, flight estimates, and itinerary generation.
+
+---
+
+## 🚀 Features
+
+- 🌤️ Real-time weather (OpenWeather API)
+- ✈️ Flight price estimation
+- 🗺️ Smart itinerary generation
+- 🤖 LLM-powered tool calling (Ollama)
+- 🎯 Multi-step reasoning (AI agent)
+
+---
+
+## 🧠 Tech Stack
+
+- Python
+- Streamlit
+- Ollama (LLM)
+- OpenWeather API
+- AviationStack API (optional)
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a travel query
+2. AI decides which tools to call:
+   - Weather
+   - Flights
+   - Itinerary
+3. Tools execute
+4. AI combines results into final plan
+
+---
+
+## 🧪 Example Prompt
+Plan a 3-day trip to Goa with budget 20000 and show weather
