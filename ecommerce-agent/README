@@ -1,0 +1,63 @@
+
+
+An advanced AI shopping assistant that supports product search, coupons, delivery estimation, and intelligent order processing using tool-calling agents.
+
+---
+
+## 🚀 Features
+
+- 🛍️ Product search (NLP-based)
+- 🏷️ Coupon application
+- 🚚 Delivery estimation
+- 📦 Order summary generation
+- 🧠 Product + brand extraction
+- 🤖 Multi-step AI reasoning
+
+---
+
+## 🧠 Tech Stack
+
+- Python
+- Streamlit
+- Ollama (LLM)
+- Custom tool-calling system
+
+---
+
+## ⚙️ How It Works
+
+1. User enters shopping query
+2. AI extracts:
+   - Product
+   - Brand
+3. AI executes tools:
+   - Inventory check
+   - Coupon apply
+   - Delivery estimate
+   - Order summary
+4. Final response generated
+
+---
+
+## 🧪 Example Prompts
+I want to buy a dell laptop, apply SAVE10 coupon and deliver to 453441
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install streamlit ollama
+streamlit run ecommerce_app.py
+
+🧩 Key Concepts
+Tool Calling
+Agent Design
+NLP (Product Extraction)
+Error Handling & Guardrails
+
+📌 Future Improvements
+Cart system 🛒
+Payment integration 💳
+Real product APIs
+User authentication
