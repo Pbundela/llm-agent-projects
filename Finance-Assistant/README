@@ -1,0 +1,53 @@
+
+A smart AI assistant that helps users manage finances, analyze expenses, and get financial insights using LLM + tool calling.
+
+---
+
+## 🚀 Features
+
+- 📊 Expense tracking
+- 💡 Financial insights
+- 📈 Investment suggestions
+- 🧮 Budget planning
+- 🤖 AI-powered reasoning
+
+---
+
+## 🧠 Tech Stack
+
+- Python
+- Streamlit
+- Ollama (LLM)
+- Custom finance tools
+
+---
+
+## ⚙️ How It Works
+
+1. User asks finance-related query
+2. AI selects tools like:
+   - Expense analysis
+   - Budget calculation
+   - Investment suggestions
+3. Tools execute
+4. AI generates insights
+
+---
+
+## 🧪 Example Prompts
+I earn 60000 monthly, spend 45000, and want to invest 10000 with medium risk. Also check TCS stock price
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install streamlit ollama
+streamlit run app.py
+
+
+
+📌 Future Improvements
+Bank API integration
+Real-time stock data
+Portfolio tracking
+Charts & dashboards
