@@ -38,3 +38,15 @@ An AI-powered travel assistant that helps users plan trips using real-time data 
 
 ## 🧪 Example Prompt
 Plan a 3-day trip to Goa with budget 20000 and show weather
+
+## ▶️ Run Locally
+
+```bash
+pip install streamlit ollama requests
+streamlit run app.py
+
+📌 Future Improvements
+Hotel booking integration
+Google Maps API
+Real flight prices
+Multi-city planning
