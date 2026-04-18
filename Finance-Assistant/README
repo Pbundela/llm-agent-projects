@@ -44,7 +44,7 @@ I earn 60000 monthly, spend 45000, and want to invest 10000 with medium risk. Al
 pip install streamlit ollama
 streamlit run app.py
 
-
+<img width="949" height="830" alt="Image" src="https://github.com/user-attachments/assets/ecfbbc2b-28e6-4b81-a15d-499c6c9e55b4" />
 
 📌 Future Improvements
 Bank API integration
